@@ -1,5 +1,5 @@
 # Site settings
-title: Jekyll-Uno
+title: Jihyun Lee
 description: 'Jekyll-Uno - a minimal, responsive theme for Jekyll'
 url: 'https://easy-note.github.io'
 baseurl: '/'
@@ -8,12 +8,12 @@ baseurl: '/'
 # disable_landing_page: true
 
 author:
-  name: 'Josh Gerdes'
-  email: josh@joshgerdes.com
-  twitter_username: joshgerdes
-  facebook_username: joshgerdes
-  github_username:  joshgerdes
-  linkedin_username:  joshgerdes
+  name: 'Jihyun Lee'
+  email: easyhyun72@gmail.com
+  twitter_username: 
+  facebook_username: 
+  github_username:  easy-note
+  linkedin_username:  JiHyun Lee
 
 defaults:
   -
