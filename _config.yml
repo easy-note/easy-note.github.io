@@ -1,6 +1,6 @@
 # Site settings
 title: Jihyun Lee
-description: 'Jekyll-Uno - a minimal, responsive theme for Jekyll'
+description: 'Hello World'
 url: 'https://easy-note.github.io'
 baseurl: '/'
 # google_analytics: 'UA-XXXXXX-X'
@@ -13,7 +13,7 @@ author:
   twitter_username: 
   facebook_username: 
   github_username:  easy-note
-  linkedin_username:  https://www.linkedin.com/in/jihyun-lee-9242ab1a8/
+  linkedin_username: www.linkedin.com/in/jihyun-lee-9242ab1a8
 
 defaults:
   -
