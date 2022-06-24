@@ -1,8 +1,8 @@
 # Site settings
 title: Jihyun Lee
-description: 'Hello World'
+description: 'Hello World 333'
 url: 'https://easy-note.github.io'
-baseurl: '/'
+baseurl: ''
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
 # disable_landing_page: true
