@@ -1103,24 +1103,44 @@ pre {
 	margin-left: 40%; }
 
 .content-wrapper__inner {
-	margin: 0 10%;
+	// margin: 0 10%;
+	margin-left: 64px; 
 	padding: 50px 0; }
 
 .footer {
-	display: block;
-	padding: 2em 0 0 0;
+	height: 50px;
+	display: flex;
+	justify-content: center ; // 가로 방향의 배치 (left: flex-start, right: flex-end, middle: center)
+	align-items: center; // 세로 방향의 배치 (left: flex-start, right: flex-end, middle: center)
+
+	// display: block;
+	// padding: 2em 0 0 0;
 	border-top: 2px solid #dddddd;
 	font-size: .7em;
 	color: #b3b3b3; }
 
-.footer__copyright {
-	display: block;
-	margin-bottom: .7em; }
-	.footer__copyright a {
-		color: #a6a6a6;
-		text-decoration: underline; }
-		.footer__copyright a:hover {
-			color: #b9301c; }
+// .footer {
+// 	height: 50px;
+// 	display: flex;
+// 	justify-content: center;
+// 	align-items: center;
+// }
+
+// .footer__copyright {
+// 	display: block;
+// 	margin-bottom: .7em; }
+// 	.footer__copyright a {
+// 		color: #a6a6a6;
+// 		text-decoration: underline; }
+// 		.footer__copyright a:hover {
+// 			color: #b9301c; }
+
+
+.footer__copyright a {
+	color: #a6a6a6;
+	text-decoration: underline; }
+	.footer__copyright a:hover {
+		color: #b9301c; }
 
 .avatar,
 .logo {
@@ -1680,3 +1700,9 @@ input[type="tel"] {
 	.btn, .navigation__item a {
 		display: block;
 		margin-bottom: .4em; } }
+		
+@media all and (min-width: 960px) {
+	.footer {
+		margin-left: 64px;
+	}
+	}
