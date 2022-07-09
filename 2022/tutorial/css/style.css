@@ -90,7 +90,8 @@ a {
 
 .main-info-section {
   /* height: calc(100vh - 81.6px); */
-  height: 500px;
+  height: 700px;
+  top: 70px;
 }
 
 .text {
