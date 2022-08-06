@@ -10,13 +10,11 @@ html {
 }
 
 .container {
-  padding: 0 0;
   /* padding: 0 100px 0 100px; */
-  /* padding: 0 0 0 0; */
 }
 
+
 nav ul,
-.main-info-section,
 .work-category {
   display: flex;
   flex-wrap: wrap;
@@ -25,9 +23,7 @@ nav ul,
 
 body {
   background-color: #252627;
-  
   margin: 0;
-  /* background-color: #fafafa; */
 }
 
 header {
@@ -38,41 +34,31 @@ header {
 }
 
 .navbar {
-  /* background-color:  #181818; */
-  /* background-color: #BEBEBE; */
-  border: 1px solid #ffffff;
   display: flex;
-  justify-content: center;
   width: 100%;
-
+  margin: 0;
 }
 
 .navbar nav ul {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  /* width: 600px; */
+  margin: 0;
 }
 .navbar nav ul li{
-  padding: 0 20px; 
-  /* color: #69fb00; */
+  padding: 0 40px 0 0;
 }
+
 .navbar nav ul li a {
-  color: #ffffff;
+  color: #f5f0f089;
   font-weight: bold;
 }
 
-/* .text-color {
-  color: #69fb00;
-} */
-
 header h1,
 header a,
-.text p,
 .about h1,
 .skills h1,
 .work h1,
-
 li {
   list-style: none;
   margin-left: 30px;
@@ -89,9 +75,14 @@ a {
 }
 
 .main-info-section {
-  /* height: calc(100vh - 81.6px); */
-  height: 700px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  height: 900px;
   top: 70px;
+
+  margin: 0;
 }
 
 .text {
@@ -100,7 +91,7 @@ a {
 
 .text h1 {
   color: #fff;
-  font-size:  3rem;
+  font-size:  3.5rem;
   cursor: context-menu;
 }
 
@@ -122,6 +113,10 @@ span.m-left {
 }
 
 .text p {
+  list-style: none;
+  margin-left: 30px;
+  color: #f5f0f089;;
+
   letter-spacing: 3px;
   word-spacing: 10px;
   font-size: .8rem;
@@ -166,38 +161,35 @@ span.m-left {
   margin-top: 50px;
 }
 
-
-
 .about {
-  /* height: 100vh; */
   /* margin-top: 100px; */
-  height: 700px;
+  height: 900px;
 }
 
 .about h1,
 .work h1 {
   font-size: 10rem;
   z-index: 0;
-  opacity: .3;
+  opacity: .4;
   
-  color: #131413c8;
+  color: #676867ea;
   position: relative;
-  top: -10px;
-  left: -50px;
+  top: 30px;
+  /* left: -200px; */
+  right: 10%;
 
   font-weight: bolder;
 }
 
 .about-me-info {
-  max-width: 780px;
+  max-width: 700px;
   background-color: #252627;
-  /* background-color: #FFFF00; */
   box-shadow: 0 0 1.2rem rgba(0,0,0,.25);
   padding: 50px;
   position: relative;
   top: -70px;
-  left: 50%;
-  right: 50%;
+  left: 40%;
+  right: 0%;
   transform: translateX(-50%);
   z-index: 1;
 }
@@ -205,7 +197,7 @@ span.m-left {
 
 .about-me-info p {
   font-size: 0.9rem;
-  color: #BEBEBE;
+  color: #d6d4d4;
 
 }
 
@@ -218,8 +210,8 @@ span.m-left {
   width: 300px;
   position: relative;
   top: -300px;
-  left: calc(100% - 100px);
-  right: calc(100% - 100px);
+  left: calc(100% - 200px);
+  right: calc(100% - 200px);
   transform: translateX(calc(-100% + 100px));
 }
 
@@ -227,15 +219,15 @@ span.m-left {
 
 .skills {
   /* height: 100vh; */
-  height: 700px;
+  height: 900px;
 }
 
 .skills h1,
 .contact h1 {
   text-align: right;
   font-size: 10rem;
-  opacity: .3;
-  color: #131413c8;
+  opacity: .4;
+  color: #676867ea;
   font-weight: bolder;
 }
 
@@ -252,7 +244,6 @@ span.m-left {
 
   top:-70px
 }
-
 
 .html {
   display: flex;
@@ -280,7 +271,7 @@ div[class^='tag-'] p {
 .progressbar {
   position: relative;
   /* width: 600px; */
-  width: 400px;
+  width: 550px;
   height: 20px;
   border: 2px solid #48CFAD;
   border-radius: 20px;
